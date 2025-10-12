@@ -3,26 +3,27 @@
 
 int main() 
 {
-	int a;
+	int input;
 	while (1)
 	{
-		printf("ÇëÊäÈë1 0 -1:\n");
+		printf("è¯·è¾“å…¥1 0 -1:\n");
 
-		scanf_s("%d", &a);
-		if (a == 1) {
+		scanf_s("%d", &input);
+		if (input == 1) {
 			printf("HELLOWORLD\n");
 		}
-		else if (a == 0) {
+		else if (input == 0) {
 			printf("helloworld\n");
 		}
-		else if (a == -1) {
+		else if (input == -1) {
 			break;
 		}
 		else {
-			printf("Êı¾İ´íÎó£¬ÇëÊäÈë-1 0 1\n");
+			printf("æ•°æ®é”™è¯¯ï¼Œè¯·è¾“å…¥-1 0 1\n");
 		}
 		
 	}
 	return 0;
+
 
 }
